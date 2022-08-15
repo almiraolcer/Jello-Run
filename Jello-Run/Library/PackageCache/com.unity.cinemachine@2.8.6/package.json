@@ -1,0 +1,50 @@
+{
+  "name": "com.unity.cinemachine",
+  "displayName": "Cinemachine",
+  "version": "2.8.6",
+  "unity": "2019.4",
+  "description": "Smart camera tools for passionate creators. \n\nNew starting from 2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version of Cinemachine, delete the Cinemachine asset from your project BEFORE installing this version from the Package Manager.",
+  "keywords": [
+    "camera",
+    "follow",
+    "rig",
+    "fps",
+    "cinematography",
+    "aim",
+    "orbit",
+    "cutscene",
+    "cinematic",
+    "collision",
+    "freelook",
+    "cinemachine",
+    "compose",
+    "composition",
+    "dolly",
+    "track",
+    "clearshot",
+    "noise",
+    "framing",
+    "handheld",
+    "lens",
+    "impulse"
+  ],
+  "category": "cinematography",
+  "repository": {
+    "url": "https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+    "type": "git",
+    "revision": "5e26d3cd08865a98219c0d2d3a8cc689018dd75b"
+  },
+  "samples": [
+    {
+      "displayName": "Cinemachine Example Scenes",
+      "description": "Sample scenes illustrating various ways to use Cinemachine",
+      "path": "Samples~/Cinemachine Example Scenes"
+    }
+  ],
+  "_upm": {
+    "changelog": "- Bugfix: A memory leak no longer occurs with PostProcessing if no PP layer is present on the camera.\n- Bugfix: Cinemachine no longer produces a compiler error in Unity Editor versions older than 2020 when an Input System package is installed.\n- Bugfix: Standalone profiler no longer crashes with CM.\n- Bugfix: EmbeddedAssetProperties were not displayed correctly in the editor.\n- Timeline guards added to scripts that rely on it.\n- Bugfix: CinemachineInputProvider now correctly tracks enabled state of input action\n- Regression fix: Axis input was ignoring CM's IgnoreTimeScale setting.\n- Bugfix: POV orientation was incorrect with World Up override\n- Added AutoEnable option to CinemachineInputHandler\n- Bugfix: 3rdPersonFollow shows a warning message when no follow target is assigned like the rest of the body components.\n- Bugfix: FadeOut sample scene shader was culling some objects incorrectly."
+  },
+  "upmCi": {
+    "footprint": "601aa7f6f5f1d11002c09f94bd6bca5c5df633c6"
+  }
+}
